@@ -27,6 +27,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Hycon
+HYCON_MAINTAINER := TheTablaster
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_kebab
 PRODUCT_DEVICE := kebab
